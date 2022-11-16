@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta author="Marcelo Abbadia">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Desafio Final bootcamp</title>
+  </head>
+  <body>
+    <h1>Controle Folha de Pagamento</h1>
+    <div>
+      <hr />
+      <form>
+        <fieldset>
+          <legend><h3>Escolha sua opção:</h3></legend>
+          <select name="options" id="selecao">
+            <option value="imp">Impressão Contra-cheques</option>
+            <option value="cad" selected>Cadastro Funcionário</option>
+            <br />
+          </select>
+          <br />
+          <br />
+          <input type="button" value="Confirmar" onclick="coletarSelect()" />
+        </fieldset>
+      </form>
+    </div>
+    <br />
+    <hr />
+    <div id="retorno">
+      <span ></span>
+    </div>
+    <section class="parte_inferior">
+      <div id="entrada"></div><BR></BR>
+      <div id="saida"></div>
+    </section>
+    <script  src="forms.js"></script>
+  </body>
+</html>

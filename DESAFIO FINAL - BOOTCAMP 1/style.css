@@ -1,0 +1,34 @@
+/* {
+  border: red 1px solid;
+  border: outside;
+}
+*/
+
+h1 {
+  text-align: left;
+  margin-left: 3%;
+}
+
+fieldset {
+  position: relative;
+  width: 300px;
+  max-width: 350px;
+  margin-left: 3%;
+  background-color: rgba(0, 0, 0, 0.032);
+  padding-top: 1em;
+}
+
+#impressao {
+  display: inline-block;
+  width: 300px;
+  max-width: 350px;
+  margin-left: 40%;
+  margin-left: 3%;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.032);
+}
+
+h3 {
+  text-align: center;
+}
